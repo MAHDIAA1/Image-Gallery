@@ -1,0 +1,343 @@
+
+/*UNIVERSAL STYLE*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #666; 
+}
+
+.body{
+    background-image: url(img/beverage-ceramic-container-230477.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+    height: 100vh;
+}
+
+.btn {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;  
+}
+
+/*NAV STYLES*/
+
+nav {
+    background: rgba(200, 0, 100, 0.6);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+
+nav .nav-menu ul {
+    display: flex;
+    padding: 20px;
+}
+
+nav .nav-menu ul li {
+    padding-right: 10px;
+}
+
+nav .nav-menu ul li a{
+    color: #fff;
+    font-family: sans-serif;
+}
+
+nav .nav-menu ul li a:hover{
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+}
+
+nav .nav-search .btn-search {
+    color: #fff;
+}
+
+.nav-logo {
+    padding-left: 20px;
+}
+
+nav .nav-logo .logo-btn {
+    color: #fff;
+}
+
+/* SECTION-1 */
+
+.section-1 {
+    display: table;
+}
+
+.section-1 .section-content {
+    width: 65%;
+    margin: 150px auto;
+}
+
+.section-1 .section-content h1{
+    text-transform: uppercase;
+    text-shadow: 4px 4px 4px #111;
+}
+
+.section-1 .section-content h1, 
+.section-1 .section-content p,
+.section-1 .section-content .lg-btn{
+    text-align: center;
+    color: #ddd;
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-shadow: 4px 4px 4px #111;
+}
+
+.section-1 .section-content .lg-btn {
+    color: #fff;
+}
+
+.lg-btn {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.lg-btn:hover{
+    background-color: rgba(200, 0, 100, 0.3);
+    transition: background-color ease .7s;
+}
+
+/* SECTION-2 */
+
+.section-2 {
+    background-color: #666;
+    margin-top: -120px;
+    margin-bottom: 2px;
+    overflow-x: hidden;
+}
+
+.show-gallery {
+    width: 600px;
+}
+
+.gallery {
+    display: flex;
+}
+
+.gallery img {
+    height: 190px;
+}
+
+.gallery > div {
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-bottom: -8px; 
+    align-content: center; 
+}
+
+
+/* FOOTER */
+
+footer {
+    height: 200px;
+    background-color: #111;
+    position: relative;
+    margin-top: -100;
+    clear: both;
+}
+
+footer a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+
+.footer-link {
+    display: flex;
+}
+
+.Trending {
+    color: #ddd;
+    text-transform: uppercase;
+    border-right: 1px solid #ddd;
+    width: fit-content;
+    padding-right: 8px; 
+}
+
+.footer-link ul {
+    padding: 5px;
+}
+
+.footer-link ul li {
+    padding: 5px;
+}
+
+.footer-link ul li a{
+    padding-bottom: 4px;
+}
+
+footer .link-footer{
+    border-bottom: 0px;
+    text-transform: uppercase;
+}
+
+.copyright {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: #ddd;
+}
+
+/* ABOUT PAGE */
+
+.about {
+    padding: 15px;
+    margin-top: 70px;
+    display: flex;
+}
+
+.author-pic img {
+    height: 300px;
+}
+
+.work-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.work-1  div {
+    padding: 10px;
+}
+
+.work-1  div h1,
+.work-1  div p,
+.work-1 h1,
+.work-1 p,
+h2{
+    color: #ddd;
+}
+
+/* ABOUT */
+
+/* CONTACT PAGE */
+.contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.my-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.txt-area {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.txt-area label {
+    text-transform: uppercase;
+    color: #fff ;
+    font-size: 1.2rem;
+    padding: 5px 0 ;
+}
+
+.txt-area textarea,
+input {
+    border-radius: 5px;
+    border: none;
+}
+
+.txt-area textarea {
+    margin: 0 20px 0 0;
+    height: 150px;
+    width: 450px;
+}
+
+span {
+    display: flex;
+}
+
+.txt-subs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+
+.txt-subs h2 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.txt-subs p,
+.txt-subs a,
+.txt-subs input,
+.txt-subs h2,
+.txt-area a {
+    color: #fff;
+    margin: 5px;
+    padding: 5px;
+}
+
+.txt-subs input {
+    border: 0;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.txt-subs a,
+.txt-area a {
+    border: 1px solid #fff;
+    margin: 5px;
+    padding: 5px;
+    width: fit-content;
+}
+
+.txt-area a:hover,
+.txt-subs a:hover {
+    color: rgba(225, 200, 200, .8);
+    border: 1px solid rgba(225, 200, 200, .8);
+}
+
+.contact-me a,
+.contact-me p {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.contact-me {
+    display: flex;
+    justify-content: center;
+    padding: 5px 20px;
+}
+
+.contact-me ul {
+    padding: 5px 0 5px;
+}
+
+
+.contact-me ul li {
+    color: #ddd;
+    letter-spacing: .1rem;
+
+}
+
+.contact-me ul:first-child {
+    padding-right: 100px;
+}
+
+/* CONTACT PAGE ENDS */
